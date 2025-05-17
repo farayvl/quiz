@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import EndPage from "../end/page";
+import EndPage from "@/components/EndPage";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function QuizPage() {

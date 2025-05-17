@@ -7,7 +7,7 @@ export default function StartPage() {
   const router = useRouter()
 
   const toQuiz = () => {
-    router.push("quiz");
+    router.push("/quiz");
   }
 
   return (
